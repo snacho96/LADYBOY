@@ -8,7 +8,7 @@
   <body>
     <header>
       <a href="../index.html"
-        ><img src="https://placehold.co/50x50" alt="LADYBOYLOGO"
+        ><img src="../img/LOGO.jpg" alt="LADYBOYLOGO" width="100" height="100"
       /></a>
       <section>
         <h1>MI CARRITO</h1>
@@ -36,63 +36,56 @@
           <td><button>QUIT</button></td>
         </tr>
       </table>
-      <br>
+      <br />
       <form action="" method="GET" enctype="multipart/form-data">
         <fieldset>
           <legend>INFORMACIO DE ENVIO:</legend>
           <label for="PAIS">PAIS</label>
-          <br>
-          <input type="radio" id="Argentina" name="PAIS" value="Argentina">
+          <br />
+          <input type="radio" id="Argentina" name="PAIS" value="Argentina" />
           <label for="Argentina">Argentina</label>
-          <input type="radio" id="Otros" name="PAIS" value="Otros">
+          <input type="radio" id="Otros" name="PAIS" value="Otros" />
           <label for="Otros">Otros</label>
-          <br>
+          <br />
           <label for="Ciudad">Ciudad</label>
-          <br>
-          <input type="text" name="Ciudad" placeholder="Ciudad">
-          <br>
+          <br />
+          <input type="text" name="Ciudad" placeholder="Ciudad" />
+          <br />
           <label for="Direccion">Direccion</label>
-          <br>
-          <input type="text" name="Direccion" placeholder="Direccion">
-          <br>
+          <br />
+          <input type="text" name="Direccion" placeholder="Direccion" />
+          <br />
           <label for="Envio">Envio</label>
           <select name="Envio" id="Envio">
             <option value="Estandar">Estandar</option>
             <option value="Premium">Premium</option>
-            <br>
-            <input type="submit" name="ENVIAR" value="ENVIAR">
-
+            <br />
+            <input type="submit" name="ENVIAR" value="ENVIAR" />
           </select>
-
         </fieldset>
-        
       </form>
-      <br>
-      <form action="/procesar_formulario" method="POST" enctype="multipart/form-data">
+      <br />
+      <form
+        action="/procesar_formulario"
+        method="POST"
+        enctype="multipart/form-data"
+      >
         <label for="imagen">ADJUNTAR COMPROBANTE DE PAGO</label>
-        <input type="file" id="imagen" name="imagen" accept="image/*">
-        <br>
-        <input type="submit" value="Subir Imagen">
+        <input type="file" id="imagen" name="imagen" accept="image/*" />
+        <br />
+        <input type="submit" value="Subir Imagen" />
       </form>
-      
-      
-    
-      
     </main>
-    <br>
+    <br />
     <footer>
       <a href="https://es-la.facebook.com/"
-        ><img src="img\FACEBOOK.png" alt="FACEBOOK" width="35"
-        height="35"
+        ><img src="../img/FACEBOOK.png" alt="FACEBOOK" width="35" height="35"
       /></a>
       <a href="https://www.instagram.com/"
-        ><img src="img\INSTAGRAM.jpg" alt="INSTAGRAM" width="35"
-        height="35" 
+        ><img src="../img/INSTAGRAM.jpg" alt="INSTAGRAM" width="35" height="35"
       /></a>
       <a href="https://web.whatsapp.com/"
-        ><img src="img\WATHSAPP.png" alt="WATHSAPP" width="35"
-        height="35" 
-        
+        ><img src="../img/WATHSAPP.png" alt="WATHSAPP" width="35" height="35"
       /></a>
     </footer>
   </body>
