@@ -1,0 +1,56 @@
+body {
+  align-content: center;
+}
+h1 {
+  align-items: center;
+  align-content: center;
+  color: blueviolet;
+  border: 2px solid #000;
+  text-align: center;
+  justify-content: center;
+}
+
+header{
+    padding: 2rem;
+}
+
+.primera-sec{
+    display: flex;
+}
+.titulo{
+    display: flex;
+    margin-left: 40%;
+
+}
+
+
+
+nav {
+  text-align: center;
+  justify-content: center;
+  border: 2px solid #000;
+}
+nav ul li {
+  display: inline-block;
+}
+main section h1 {
+  text-align: center;
+}
+#quienes {
+  text-align: center;
+  border: 3px solid #000;
+  background-color: palevioletred;
+  font-family: "georgia", sans-serif;
+}
+main {
+  background-color: rgb(167, 163, 163);
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+body{
+    background-color: black;
+}
+#logo{
+    border-radius: 50%;
+    width: 60px;
+}
